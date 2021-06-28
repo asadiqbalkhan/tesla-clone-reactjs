@@ -1,4 +1,4 @@
-.header{
+.header {
     display: flex;
     position: sticky;
     z-index: 2;
@@ -9,50 +9,50 @@
     align-items: center;
     padding: 25px;
     padding-top: 15px;
-}
-
-.header__logoImg{
+  }
+  
+  .header__logoImg {
     object-fit: contain;
-    width: 90px;
     flex: 1;
-    margin-right:100px;
-}
-
-.header__links{
+    width: 90px;
+    margin-right: 100px;
+  }
+  
+  .header__links {
     display: flex;
     gap: 15px;
-}
-
-.header__links > a {
+  }
+  
+  .header__links > a {
     text-decoration: none;
- 
+    text-transform: uppercase;
     color: black;
     font-weight: 500;
     font-size: 15px;
-}
-
-.header__right{
+  }
+  
+  .header__right {
     display: flex;
     align-items: center;
     gap: 15px;
-}
-
-.header__right > a {
+  }
+  
+  .header__right > a {
     text-decoration: none;
+    text-transform: uppercase;
     color: black;
     font-weight: 500;
     font-size: 15px;
     z-index: 0;
     position: relative;
-}
-
-.header__menu > .MuiSvgIcon-root {
+  }
+  
+  .header__link--hidden {
+    visibility: hidden;
+  }
+  
+  .header__menu > .MuiSvgIcon-root {
     position: relative;
     z-index: 2;
     cursor: pointer;
-
-}
-
-.header__link--hidden {
-    visibility: hidden;
-}
+  }  

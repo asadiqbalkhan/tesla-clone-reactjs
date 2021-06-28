@@ -5,12 +5,6 @@ import CloseIcon from '@material-ui/icons/Close'
 import { Link } from 'react-router-dom'
 
 
-
-// Add this in your component file
-// require('react-dom');
-// window.React2 = require('react');
-// console.log(window.React1 === window.React2);
-
 function Header({ isMenuOpen, setIsMenuOpen }) {
   return (
     <div className='header'>
@@ -36,7 +30,7 @@ function Header({ isMenuOpen, setIsMenuOpen }) {
           Shop
         </Link>
         <Link to='/login' className={isMenuOpen && 'header__link--hidden'}>
-          Tesla Account
+          Account
         </Link>
         <div className='header__menu' onClick = {() => setIsMenuOpen (!isMenuOpen)}>
           {isMenuOpen ?  <CloseIcon /> : <MenuRoundedIcon />}
