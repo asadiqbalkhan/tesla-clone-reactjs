@@ -19,10 +19,15 @@ function Header({ isMenuOpen, setIsMenuOpen }) {
       </div>
       <div className='header__links'>
         <Link to='/'>Model S</Link>
+        <span></span>
         <Link to='/'>Model 3</Link>
+        <span></span>
         <Link to='/'>Model X</Link>
+        <span></span>
         <Link to='/'>Model Y</Link>
+        <span></span>
         <Link to='/'>Solar Roof</Link>
+        <span></span>
         <Link to='/'>Solar Panels</Link>
       </div>
       <div className='header__right'>
