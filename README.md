@@ -1,2 +1,7 @@
 # tesla-clone-reactjs
-A complete functioning clone of the official www.tesla.com in ReactJS framework 
+ clone of the official www.tesla.com in React and used firebase for user authentication and persistence 
+ (not production level)
+ To-Do
+ 1) Optimise for mobile 
+ 2) Complete home page components
+ 3) Structure the directory 
